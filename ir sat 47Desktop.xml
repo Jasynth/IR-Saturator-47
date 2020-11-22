@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="1" y="19" fileName="/Users/jasonmorley/Desktop/IN REACH ENT LOGOS/IMG_0497.jpg"
+             width="743" height="305">
+    <Component type="ScriptImage" id="Image2" x="126" y="-18" parentComponent="Image1"
+               fileName="{PROJECT_FOLDER}3A02F2F1-1E48-4B04-B7E8-26C5858ED219.jpeg"
+               width="468" height="238"/>
+  </Component>
+  <Component type="ScriptLabel" id="Label1" x="591" y="19" bgColour="4278190080"
+             width="129" height="281" itemColour="4289563662" text="" enabled="0"/>
+  <Component type="ScriptLabel" id="Label2" x="0" y="18" bgColour="4278190080"
+             width="129" height="282" itemColour="4289563662" text="" enabled="0"/>
+  <Component type="ScriptLabel" id="Label3" x="189" y="173" text="Harmonic Saturation"
+             fontSize="45" width="354" height="88" fontName="Hiragino Sans"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label4" x="172" y="1" text="IR SATURATOR 47"
+             fontSize="81" width="391" height="94" fontName="Phosphate" textColour="4279240969"
+             enabled="0"/>
+  <Component type="ScriptSlider" id="Knob1" x="173" y="113" filmstripImage="{PROJECT_FOLDER}LittlePhatty2.png"
+             processorId="Saturator1" parameterId="PreGain" numStrips="100"
+             width="115" height="86" mode="Decibel" max="24" stepSize="0.1"
+             suffix=" dB" middlePosition="12"/>
+  <Component type="ScriptSlider" id="Knob2" x="276" y="111" filmstripImage="{PROJECT_FOLDER}LittlePhatty2.png"
+             processorId="Saturator1" parameterId="Saturation" numStrips="100"
+             width="115" height="86" mode="NormalizedPercentage" suffix="%"
+             middlePosition="0.5"/>
+  <Component type="ScriptSlider" id="Knob3" x="381" y="109" filmstripImage="{PROJECT_FOLDER}LittlePhatty2.png"
+             processorId="Saturator1" parameterId="WetAmount" numStrips="100"
+             width="115" height="86" mode="NormalizedPercentage" suffix="%"
+             middlePosition="0.5"/>
+  <Component type="ScriptSlider" id="Knob4" x="485" y="110" filmstripImage="{PROJECT_FOLDER}LittlePhatty2.png"
+             processorId="Saturator1" parameterId="PostGain" numStrips="100"
+             width="115" height="86" mode="Decibel" min="-100" max="0" stepSize="0.1"
+             suffix=" dB" middlePosition="-18"/>
+  <Component type="ScriptLabel" id="Label5" x="137" y="172" text="Pre Gain"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label6" x="453" y="170" text="Post Gain"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label7" x="244" y="171" text="Saturation"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label8" x="349" y="170" text="Wet" enabled="0"/>
+</ContentProperties>
